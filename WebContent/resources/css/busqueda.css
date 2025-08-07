@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/06/2017, 03:58:37 PM
+    Author     : bbautista
+*/
+
+
+.A{
+    width: 200px;
+}
+.B{        
+    width: 80%;
+}
+#busqueda{
+        overflow: hidden;
+	background: grey;
+        padding: 10px;
+}
+
+#busqueda .A,#busqueda .B{
+    float: left;
+}
+
+
+.labelSearch{
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.iconSearch{
+    background-color: #fff;    
+    width:15px;
+    height:15px;
+    cursor: pointer;
+    margin-left: -30px;
+    padding-top: -20px;
+}
+
+
+input {
+  border: 0;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+input:focus{
+  outline: 0;
+}
+.input-placeholder{  
+  display: inline-block;
+  padding: 10px;   
+}
+
+.headerSearch{   
+   display: inline-block; /* Imprescindible inline-block para text-align */
+    width: 100%;
+    height: 25px;
+    font-size: inherit; /* Indiferente */
+    text-align: left;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin-left: -10px;
+    
+} 

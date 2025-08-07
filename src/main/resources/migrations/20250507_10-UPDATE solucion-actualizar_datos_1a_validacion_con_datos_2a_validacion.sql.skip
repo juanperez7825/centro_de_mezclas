@@ -1,0 +1,7 @@
+-- 1.- Agregar el usuario fecha de primer validacion con los datos de usuario y fecha de segunda validacion
+START TRANSACTION;
+    UPDATE solucion
+    SET idUsuarioValPrescr = idUsuarioValida,
+    fechaValPrescr = fechaValida
+    WHERE idUsuarioValPrescr IS NULL;
+COMMIT;
